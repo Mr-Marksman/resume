@@ -401,6 +401,35 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
 */
 
+.avatar {
+  float: right; 
+  border: 2px solid black; 
+  border-radius: 10%; 
+  height: 100%;
+  width: 100%;"
+}
+
+.l-disc {
+  list-style: disc; 
+  margin-left: 10%;
+}
+
+.l-circle {
+  list-style: circle; 
+  margin-left: 10%;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.title {
+  font-size: 1.7em;
+}
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
